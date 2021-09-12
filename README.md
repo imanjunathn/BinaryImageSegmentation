@@ -1,0 +1,2 @@
+# BinaryImageSegmentation
+ This task is a binary classification problem. We are given a microscope image. We need to extract the cells from the image. To do this we need to classify each pixel on the image as either being part of a cell or not. The target values are given to us as a black and white mask. Here I'm using 'UNET' architecture using 'segmentation-models' and backbone model is 'resnet34'.
